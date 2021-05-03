@@ -1,0 +1,40 @@
+header{
+    display: flex;
+}
+
+.left{
+    display: flex;
+    width: 100%;
+    img{
+        width: 200px;
+        height: 110px;
+    }
+}
+
+.right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    i{
+        margin: 0 20px;
+        font-size: 30px;
+    }
+}
+
+h3{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    color: #5F6369;
+    font-weight: lighter;
+}
+
+// Nav
+
+nav{
+    li:last-child{
+        color: #3367D6;
+        border-bottom: 3px solid #3367D6;
+    }
+}
